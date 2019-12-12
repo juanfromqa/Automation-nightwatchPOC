@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/nightwatch tests/Login.Test.js"
+    "test": "./node_modules/.bin/nightwatch tests/Login.Test.js --no-cache --headless --no-sandbox"
   },
   "repository": {
     "type": "git",
