@@ -10,6 +10,9 @@
   
     "test_settings" : {
       "default" : {
+          "selenium" : {
+          "start_process" : true
+        },
         "desiredCapabilities": {
           "browserName": "chrome",
           "isHeadless": true  
