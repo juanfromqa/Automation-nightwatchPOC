@@ -11,7 +11,7 @@
     "test_settings" : {
       "default" : {
           "selenium" : {
-          "start_process" : true
+          "start_process" : false
         },
         "desiredCapabilities": {
           "browserName": "chrome",
