@@ -6,7 +6,7 @@ node_js:
  - 9
  
 addons:
- chrome: stable
+ chrome: beta
   
 script:
  - npm test
