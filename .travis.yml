@@ -5,5 +5,8 @@ node_js:
 before_script:
  - npm install
  
+ addons:
+  chrome: stable
+ 
 script:
  - npm test
