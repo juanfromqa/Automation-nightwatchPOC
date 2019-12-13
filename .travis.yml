@@ -9,7 +9,7 @@ addons:
  chrome: beta
  
  before_script:
-  - bundle exec chromedriver-update 77
+  - bundle exec chromedriver-update ChromeDriver 77.0.3865.40
   
 script:
  - npm test
