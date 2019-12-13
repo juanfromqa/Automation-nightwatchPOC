@@ -7,6 +7,10 @@ node_js:
  
 addons:
  chrome: beta
+ 
+ before_script:
+  - bundle exec chromedriver-update 77
   
 script:
  - npm test
+
