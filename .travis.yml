@@ -7,11 +7,12 @@ node_js:
  
  addons:
   apt:
-    sources:
-      - google-chrome
-    packages:
-      - dpkg
-      - google-chrome-stable
+   sources:
+     - google-chrome
+   packages:
+     - dpkg
+     - google-chrome-stable
+     
 script:
  - npm test
 
