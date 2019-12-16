@@ -14,8 +14,7 @@
           "start_process" : false
         },
         "desiredCapabilities": {
-          "browserName": "chrome",
-          "isHeadless": true  
+          "browserName": "chrome"
         }
       }
     }
