@@ -3,14 +3,14 @@ os:
 
 language: node_js
 node_js:
- - 9
+ - 12
  
 addons:
- chrome: beta
- 
- before_script:
-  - bundle exec chromedriver-update ChromeDriver 77.0.3865.40
-  
+  chrome: beta
+before_install:
+ - # start your web application and listen on `localhost`
+ - "/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --headless --disable-gpu --remote-debugging-port=9222 http://localhost &"  
+
 script:
  - npm test
 
