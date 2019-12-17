@@ -5,6 +5,7 @@ module.exports = {
 
         client.url('https://www.google.com').maximizeWindow()
         homePage.waitAndClickElement('@loginButton')
+        loginPage.waitAndClickElement('@emailTextBox')
         loginPage.waitAndSetValue('@emailTextBox', process.env.EMAIL_ADDRESS)
         loginPage.waitAndClickElement('@nextButton')
         loginPage.waitAndSetValue('@passwordTextBox', process.env.PASSWORD)
