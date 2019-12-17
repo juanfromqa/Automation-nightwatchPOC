@@ -4,12 +4,12 @@
 
     "webdriver" : {
       "start_process": true,
-      "server_path":  "./node_modules/chromedriver/lib/chromedriver/chromedriver",
-      "port": 9516,
+      "server_path":  "node_modules/chromedriver",
+      "port": 9515,
       "host": "localhost",
       "browser": "chrome",
       "cli_args": [
-          "--port=9516"
+          "--port=9515"
         ]
     },
 
