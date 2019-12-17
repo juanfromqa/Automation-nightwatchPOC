@@ -5,7 +5,12 @@
     "webdriver" : {
       "start_process": true,
       "server_path": "node_modules/.bin/chromedriver",
-      "port": 9515
+      "port": 9515,
+          "host": "localhost"
+          "browser": "chrome
+          "window_size": false
+          "capabilities":
+            "args:: ["--headless",  "--disable-gpu"]
     },
 
     "test_settings" : {
