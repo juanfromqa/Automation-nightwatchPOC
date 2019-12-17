@@ -1,7 +1,7 @@
 module.exports = {
     elements: {
         emailTextBox: {
-            selector: 'identifierId',
+            selector: '#identifierId',
         },
         nextButton: {
             selector: '#identifierNext',
