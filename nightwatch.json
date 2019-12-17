@@ -9,7 +9,7 @@
       "host": "localhost",
       "browser": "chrome",
       "cli_args": [
-          '--port=9516'
+          "--port=9516"
         ]
     },
 
