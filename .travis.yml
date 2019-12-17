@@ -6,13 +6,8 @@ node_js:
  - 12
  
 addons:
-  apt:
-   sources:
-     - google-chrome
-   packages:
-     - dpkg
-     - google-chrome-stable
-     
+ chrome: stable
+ 
 script:
  - npm test
 
