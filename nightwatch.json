@@ -4,11 +4,10 @@
 
     "webdriver" : {
       "start_process": true,
-      "server_path": "/home/travis/build/juanhernand3z/Automation-nightwatchPOC/node_modules/chromedriver/lib/chromedriver/chromedriver",
+      "server_path":  "node_modules/.bin/chromedriver",
       "port": 9515,
           "host": "localhost",
-          "browser": "chrome",
-          "window_size": false
+          "browser": "chrome"
     },
 
     "test_settings" : {
