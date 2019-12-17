@@ -8,9 +8,7 @@
       "port": 9515,
           "host": "localhost",
           "browser": "chrome",
-          "window_size": false,
-          "capabilities":
-            "args:: ["--headless",  "--disable-gpu"]
+          "window_size": false
     },
 
     "test_settings" : {
