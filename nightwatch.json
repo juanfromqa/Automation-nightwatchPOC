@@ -6,9 +6,9 @@
       "start_process": true,
       "server_path": "node_modules/.bin/chromedriver",
       "port": 9515,
-          "host": "localhost"
-          "browser": "chrome
-          "window_size": false
+          "host": "localhost",
+          "browser": "chrome",
+          "window_size": false,
           "capabilities":
             "args:: ["--headless",  "--disable-gpu"]
     },
@@ -16,8 +16,7 @@
     "test_settings" : {
       "default" : {
         "desiredCapabilities": {
-          "browserName": "chrome",
-          "isHeadless": true
+          "browserName": "chrome"
         }
       }
     }
