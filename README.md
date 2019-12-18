@@ -7,3 +7,4 @@ This is a proof of concept using nightwatch framework with javascript language.
 2. Run the command `npm install`.
 3. Copy and rename the `.env_sample` file to `.env` and use a gmail account.
 4. Run the command `npm test`.
+5. Enjoy
